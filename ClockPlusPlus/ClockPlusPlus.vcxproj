@@ -78,10 +78,14 @@
     <ClCompile Include="face.cpp" />
     <ClCompile Include="hour.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="minute.cpp" />
+    <ClCompile Include="second.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Face.h" />
     <ClInclude Include="Hour.h" />
+    <ClInclude Include="Minute.h" />
+    <ClInclude Include="Second.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
