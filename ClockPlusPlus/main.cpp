@@ -18,7 +18,7 @@ int main()
     int Seconds = 0;
 
     //Setup the Clock Face
-    system("clear");
+    cout << "\033[H\033[2J\033[3J";
     ClockString = SetFace();
 
     //Clock Loop
@@ -35,8 +35,8 @@ int main()
         Minute = Minutes % 10;
         
         //Set time to Clock
-        ClockChar = SetHour(ClockChar, Hours);
         ClockChar = SetMinute(ClockChar, Minutes);
+        ClockChar = SetHour(ClockChar, Hours);
         ClockChar = SetSecond(ClockChar, Seconds, Minute);
 
         //Populate Display values
@@ -45,9 +45,8 @@ int main()
         ClockChar = "";
 
         //Write Display to Console
-        system("clear");
+        cout << "\033[H\033[2J\033[3J";
         cout << Display << endl;
-        cout << "\n";
 
         //Wait one Second
         this_thread::sleep_for(chrono::seconds(1));
