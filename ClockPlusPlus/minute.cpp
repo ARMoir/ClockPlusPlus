@@ -20,7 +20,6 @@ string SetMinute(string ClockChar, int Minutes)
 		ClockChar[97] = *"\\";
 		ClockChar[122] = *"\\";
 	}
-
 	else if (Minutes >= 45)
 	{
 		ClockChar[142] = *"M";

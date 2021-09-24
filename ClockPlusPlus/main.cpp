@@ -29,9 +29,12 @@ int main()
         ClockChar = ClockString;
 
         //Get the Current Time
-        Hours = stoi(CurrentTime("%H"));
-        Minutes = stoi(CurrentTime("%M"));
-        Seconds = stoi(CurrentTime("%S"));
+        char H[] = "%H";
+        char M[] = "%M";
+        char S[] = "%S";
+        Hours = stoi(CurrentTime(H));
+        Minutes = stoi(CurrentTime(M));
+        Seconds = stoi(CurrentTime(S));
         Minute = Minutes % 10;
         
         //Set time to Clock
