@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
-#include <ctime>    
-#include <string> 
+#include <ctime>
+#include <string>
 #include <thread>
 #include "Minute.h"  
 using namespace std;

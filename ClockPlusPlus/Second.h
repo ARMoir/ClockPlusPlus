@@ -2,7 +2,7 @@
 #ifndef SECOND_H
 #define SECOND_H
 
-#include <iostream>>
+#include <iostream>
 #include <string>
 
 std::string SetSecond(std::string ClockChar, int Seconds, int Minute);

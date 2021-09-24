@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
-#include <ctime>    
-#include <string> 
+#include <ctime>
+#include <string>
 #include <thread>
 #include "Face.h"
 using namespace std;
@@ -9,8 +9,8 @@ using namespace std;
 string SetFace()
 {
 
-    string ClockString = 
-"   ~-------------~    \n\
+    string ClockString = "\
+   ~-------------~    \n\
  ('..'11..12..1'..')  \n\
 | :               : | \n\
 | :10            2: | \n\

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <chrono>
-#include <ctime>    
-#include <string> 
+#include <ctime>
+#include <string>
 #include <thread>
-#include "Hour.h"  
+#include "Hour.h"
 using namespace std;
 
 string SetHour(string ClockChar, int Hours)

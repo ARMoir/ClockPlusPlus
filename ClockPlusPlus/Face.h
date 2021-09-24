@@ -2,7 +2,7 @@
 #ifndef FACE_H
 #define FACE_H
 
-#include <iostream>>
+#include <iostream>
 #include <string>
 
 std::string SetFace();
