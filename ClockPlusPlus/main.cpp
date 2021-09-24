@@ -45,7 +45,7 @@ int main()
         ClockChar = "";
 
         //Write Display to Console
-        cout << "\033[H\033[2J\033[3J";
+        cout << "\033[1;1H";
         cout << Display << endl;
 
         //Wait one Second
