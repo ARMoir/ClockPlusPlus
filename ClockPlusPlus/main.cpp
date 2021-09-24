@@ -48,8 +48,7 @@ int main()
         ClockChar = "";
 
         //Write Display to Console
-        cout << "\033[1;1H";
-        cout << Display << endl;
+        cout << "\033[1;1H" << Display << endl;
 
         //Wait one Second
         this_thread::sleep_for(chrono::seconds(1));
